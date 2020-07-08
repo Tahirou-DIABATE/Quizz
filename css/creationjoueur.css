@@ -1,0 +1,82 @@
+.debut{
+    /*border: solid red 3px;*/
+    height: auto;
+    background-color: #052426;
+    width: 100%;
+}
+.titre{
+   padding: 15px;
+   text-align: center;
+   color: white;
+   border: solid 2px green 
+}
+.personnage{
+    float:left;
+    top: auto;
+}
+.bloc{
+    background-image: url(../images/arriere.jpg);
+    background-size: 100%;
+    /*background-attachment: fixed;*/
+    height: auto;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    /*border: solid 1px green */
+}
+
+.bloc2{
+    /*border: red solid;*/
+    height: auto;
+    width: 90%;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 10px;
+    /*border: red solid;*/
+    justify-content: space-around;
+    display: flex;
+    padding: 20px;
+}
+.bloc3{
+    border-bottom: solid #888888;
+    width: 400px;
+    padding-left: 10px;
+    /*border: solid red;*/
+}
+article{
+    padding-bottom: 5px;
+    top: -10;
+    font-weight: 100px;
+    font-family: Semibold;
+    color:#888888 ;
+}
+.form-groupo{
+    width: 500px;
+    height: 400px;
+    padding-left: 10px;
+    font-weight: 100px;
+    font-family: Semibold;
+    color:#888888 ;
+    border-radius: 20px;
+}
+.button{
+    width: 100px;
+    display: flex;
+    float: right;
+    /*height: 30px;*/
+    padding-top: 5px;
+    justify-content: space-around;
+}
+.circleo{
+    padding: 7px;
+    height: 120px;
+    float: right;
+}
+.circle2o{
+    border-radius: 50px;
+    /*border: solid 3px ;*/
+    margin: 0 auto;
+    margin-top: auto;
+    background-image: url(../images/profil.jpg);
+    background-size: 100%;
+}

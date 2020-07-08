@@ -1,0 +1,328 @@
+.entete{
+    background-color: #052426;
+    height: auto;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    padding-top: 15px;
+}
+.contain{
+    height: 800px;
+    width: auto;
+    background-image: url(../images/arriere.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.contain2{
+    background-color:#F2F2F2;
+    height: 600px;
+    width: 1000px;
+    margin-left: auto;
+   margin-right: auto;
+    border-radius: 10px;
+    display: flex;
+}
+.contain9{
+  background-color:#F2F2F2;
+  height: 300px;
+    width: 500px;
+    margin-left: auto;
+   margin-right: auto;
+}
+.contain3{
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 10%;
+    background-color: #51BFD0;
+}
+.contain4{
+    width: 30%;
+   margin-top: 50px;
+   margin-left: 50px;
+   border-radius: 20px;
+}
+.contain5{
+    width: 65%;
+    height: 500px;
+    margin-left: 50px;
+    margin-right: 25px;
+    background-color: white;
+    border-radius: 20px;
+}
+.container4b{
+    margin-bottom: 20px;
+    background-color: #73CCDA;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+#navigation {
+    width: auto;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  #navigation li {
+    color:#8D8070;
+    margin-bottom: 10px ;
+  }
+  #navigation li a {
+    display: block ;
+    color:#8D8070 ;
+    font: 1.5em "Trebuchet MS",Arial,sans-serif ;
+    line-height: 1em ;
+    text-align: center ;
+    text-decoration: none ;
+    padding: 4px 0 ;
+  }
+  #navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+    background:#F8F3F0;
+    text-decoration: underline ;
+  }
+  .container5b{
+      margin-left: 15px;
+      margin-top: 15px;
+      border: solid #39DDD6 1px;
+      border-radius: 5px;
+      width: auto;
+      height: 450px;
+  }
+  .container5b h1{
+      color: #73CCDA;
+      text-align: center;
+      font-size: x-large;
+  }
+  .cercle{
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    border: solid #707070 2px;
+  }
+  .cercle2{
+    margin: auto;
+    margin-top: 7px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: solid #707070 2px;
+    background-color: black;
+  }
+table
+{
+margin: auto;
+font-size: x-large;
+color: #8D8070;
+}
+
+td
+{
+  border: solid;
+text-align :center;
+}
+/*checkbox*/
+.contain_2{
+  background-color:#F2F2F2;
+  height: auto;
+  width: 100%;
+  margin-left: auto;
+ margin-right: auto;
+  border-radius: 10px;
+  display: flex;
+ 
+}
+.contain_2p{
+  background-color:#F2F2F2;
+  height: 600px;
+  width: 1000px;
+  margin-left: auto;
+ margin-right: auto;
+  border-radius: 10px;
+  display: flex;
+ 
+}
+.contain_5{
+    width: 100%;
+    height: auto;
+    margin: 10px 20px;
+    padding: 20px 20px;
+    background-color: white;
+    border-radius: 20px;
+ 
+}
+.container_5b{
+  margin-left: 15px;
+  margin-top: 15px;
+  border: solid #39DDD6 1px;
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+}
+.container_5b h1{
+  color: #73CCDA;
+  text-align: center;
+  font-size: x-large;
+}
+.contain_4{
+  width: 1000px;
+  margin: auto;
+  margin-top:5px;
+  height: 700px;
+  background-color:white;
+  border-radius:2%;
+  justify-content: space-around;
+}
+
+
+.trait_dessus {
+  border-top: 1px solid gray;
+  width : 600px;
+}
+.trait_dessuss {
+  border-top: 1px solid gray;
+  width : 300px;
+  
+}
+.circle{
+  padding: 3px;
+  width: 280px;
+  height: 260px;
+  border-radius: 220px;
+  border: solid 3px #51BFD0;
+  float: right;
+  
+}
+.circle2{
+  width: 260px;
+  height: 245px;
+  border-radius: 280px;
+  /*border: solid 3px ;*/
+  margin: 0 auto;
+  margin-top: auto;
+  background-image: url(../images/profil.jpg);
+  background-size: 100%;
+}
+.contain_4p{
+  width: 500px;
+  margin: auto;
+  margin-top:5px;
+  height: 500px;
+  background-color:white;
+  border-radius:2%; 
+  justify-content: space-around;
+ 
+}
+.circlee{
+  padding: 3px;
+  width: 170px;
+  height: 170px;
+  border-radius: 110px;
+  border: solid 3px #51BFD0;
+  float: right;
+  
+}
+.circlee2{
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  /*border: solid 3px ;*/
+  margin: auto;
+  margin-top: 5px;
+  background-image: url(../images/profil.jpg);
+  background-size: 100%;
+}
+.contain2nd{
+  margin: auto;
+  border: solid #198FA9 2px;
+  border-radius: 10px;
+  height: 550px;
+  width: 700px;
+}
+.contain2nd_b{
+  margin: auto;
+  margin-top: 10px;
+  height: 100px;
+  width: 650px;
+text-align: center;
+font-size: xx-large;
+background-color: #F7F7F7;
+box-shadow: 2px 2px 2px #A8DFE6;
+}
+.points{
+  text-align: center;
+  height: 40px;
+  width: 50px;
+  float: right;
+  margin-top: 15px;
+  margin-right: 10px;
+  background-color: #F7F7F7;
+box-shadow: 2px 2px 2px #A8DFE6;
+}
+.contain3rd{
+  margin-top: 50px;
+  height: 400px;
+  width: 400px;
+  margin-right: 20px;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.new {
+  padding: 50px;
+}
+
+/*
+.form-group {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.form-group label {
+  position: relative;
+  cursor: pointer;
+}
+.form-group label:before {
+  content:'';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid #0079bf;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.form-group input:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 9px;
+  width: 6px;
+  height: 14px;
+  border: solid #0079bf;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+/*
