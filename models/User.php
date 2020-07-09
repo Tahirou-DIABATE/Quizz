@@ -13,11 +13,10 @@ class User extends DaoMysql{
         $user = $this->executeSelect("select * from user where idUser=$id");
         return $user;
     }
-    public  function  add($data){
-       extract($data);
+    public  function  add($nom, $prenom, $login, $password){
         return $this->executeUpdate("INSERT INTO `user`
-            (`iduser`, `nom`, `prenom`, `photo`, `login`, `password`, `idprofil`)
-            VALUES (NULL, '$nom', '$prenom', '$photo', '$login', '$password', '$profil');"
+            (`iduser`, `nom`, `prenom`, `login`, `password`)
+            VALUES (NULL, '$nom', '$prenom', '$login', '$password');"
             );
     }
 

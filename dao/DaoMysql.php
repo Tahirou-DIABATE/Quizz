@@ -3,7 +3,7 @@ require_once'IDao.php';
 abstract class DaoMysql implements IDao{
 public abstract function  lister();
 public abstract function  listerU($data);
-public abstract function  add($data);
+public abstract function  add($nom, $prenom, $login, $password);
 
 //Attributs
 var $pdo=null;

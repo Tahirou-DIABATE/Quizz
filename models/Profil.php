@@ -10,7 +10,7 @@ class Profil extends DaoMysql{
         return $this->executeSelect("select * from profil");
     }
 
-    public function add($data){
+    public function add($nom, $prenom, $login, $password){
         // TODO: Implement add() method.
     }
 

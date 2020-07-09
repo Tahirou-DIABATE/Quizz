@@ -20,6 +20,28 @@ if(isset($_POST['btn_admin_submit'])){
     }
 }
 
+if(isset($_POST['btn_inscription_submit'])){
+    //Traitement de Connexion
+    if($_POST['btn_inscription_submit']=="inscription"){
+        //Veri fication de la Connexion
+        $userModel->add($_POST['nom'],$_POST['prenom'],$_POST['login'],$_POST['password']);
+        //Veri fication de la Connexion
+        $currentUser=$userModel->seConnecter($_POST['login'],$_POST['password']);
+        //User Existe
+        if($currentUser!=null){
+            //User Actif
+            $_SESSION['login']="on";
+            header("location:index.php?lien=dashboard&page=repondrequestion");
+
+        }else{
+            //User Inexistente
+            header("location:index.php");
+            $_SESSION['error']="Login ou Mot de Passe Incorrect";
+        }
+
+    }
+}
+
 if($_SESSION['login']=="on"){
     if(isset($_GET['action_admin'])){
         if($_GET['action_admin']=="deconnection"){

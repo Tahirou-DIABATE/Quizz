@@ -1,4 +1,4 @@
-#Application web php QUIZZ
+# Application web php QUIZZ
 
 - Creer une base de donnee quizz et importer le *quizz.sql*
     - user= root
